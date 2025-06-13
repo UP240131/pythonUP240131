@@ -26,10 +26,8 @@ print("dictionary")
 print({'nombre':'luis'})
 
 #3
-x1 , y1 = 2 ,3
-x2 , y2 = 10 , 8
-slope_2=(y2-y1)/(x2-x1)
-distance = ((x2-x1)**2+(y2-y1)**2)**0.5
-print("Slope:" , slope_2)
-print("euclidean distance:" , distance)
-print(slope = slope_2)
+import math
+x1, y1 = 2, 3
+x2, y2 = 10, 8
+slope_2 = ((y2-y1)/(x2-x1))
+distance = math.sqrt((x2-x1)**2+(y2-y1)**2)

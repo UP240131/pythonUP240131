@@ -40,7 +40,7 @@ slope_1=(y2-y1)/(x2-x1)
 dis = ((x2-x1)**2+(y2-y1)**2)**0.5
 print("Slope:" , slope_1)
 print("euclidean distance:" , dis)
-print(slope = slope_1)
+print(slope == slope_1)
 
 x_values= [-3,-2,-1,0,1,2,3]
 for x in x_values:
